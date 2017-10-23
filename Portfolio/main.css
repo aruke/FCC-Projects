@@ -1,0 +1,25 @@
+.container p {
+    font-size: 18px;
+}
+
+.portfolio-item-img {
+    padding:16px;
+}
+
+.title {
+    padding-top:32px;
+}
+
+.bg-img {
+    z-index: -1;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    top: 0;
+    width:100%;
+}
