@@ -7,7 +7,7 @@
 }
 
 .title {
-    padding-top:32px;
+    padding:32px;
 }
 
 .bg-img {
@@ -15,11 +15,7 @@
 }
 
 .banner {
-    position: relative;
-}
-
-.banner-text {
-    position: absolute;
-    top: 0;
-    width:100%;
+    background-image: url("../Resources/img/portfolio-bg.jpg");
+    background-size: cover;
+    padding: 32px;
 }
