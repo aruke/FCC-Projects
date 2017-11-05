@@ -48,4 +48,9 @@ $(document).ready(function () {
         });
     });
 
+    $('#btn-tweet').click(function(){
+        url = "https://twitter.com/intent/tweet?text=" + encodeURI(quote.quote + ' - ' + quote.author + '\nRandomQuoteGenerator @freeCodeCamp @_alpharion_');
+        open(url);
+    });
+
 });
