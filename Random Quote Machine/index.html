@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Quote Generator</title>
+    <link type="text/css" rel="stylesheet" href="../Resources/css/materialize.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="main.css"/>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Main contents -->
+    <div class="valign-wrapper row">
+
+        <div class="card quote-container col m8 offset-m2 s12">
+
+            <div class="card-content">
+                <div class="row left-align">
+                    <div class="col m1">
+                        <img src="../Resources/svg/left-quote.svg"/>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="quote-text" class="col m10 offset-m1 center"></div>
+                </div>
+
+                <div class="row right-align">
+                    <div class="col m1 offset-m11">
+                        <img src="../Resources/svg/right-quote.svg"/>
+                    </div>
+                </div>
+
+                <div class="row right-align">
+                    <div id="quote-author" class="col m8 offset-m2"></div>
+                </div>
+            </div>
+
+            <div class="card-action">
+                <button id="btn-tweet" class="btn-flat">Tweet</button>
+                <button id="btn-new-quote" class="btn-flat">New Quote</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="row">
+        <div class="center">
+            <p>Made with ❤️ by <a target="_blank" href="https://rajanikant.me">RK</a></p>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/vaadin" title="Vaadin">Vaadin</a> from <a
+                    href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+                    href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC
+                3.0 BY</a></div>
+        </div>
+    </div>
+</footer>
+
+<!--Import jQuery before materialize.js -->
+<script type="text/javascript" src="../Resources/js/jquery.js"></script>
+<script type="text/javascript" src="../Resources/js/materialize.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>

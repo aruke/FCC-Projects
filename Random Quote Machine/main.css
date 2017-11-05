@@ -1,0 +1,35 @@
+.body {
+    -webkit-logical-height: -webkit-fill-available;
+    background-color: #d1d1d1;
+}
+
+.container {
+    -webkit-logical-height: -webkit-fill-available;
+}
+
+.valign-wrapper {
+    -webkit-logical-height: -webkit-fill-available;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: inherit;
+}
+
+.quote-container {
+    font-size: xx-large;
+}
+
+#quote-author {
+    font-size: smaller;
+}
+
+.card .card-content {
+    padding: 10% 5%;
+    color: inherit
+}
+
+footer {
+    width: 100%;
+}
