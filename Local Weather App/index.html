@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Local Weather App</title>
+    <link type="text/css" rel="stylesheet" href="../Resources/css/materialize.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="main.css"/>
+</head>
+<body>
+
+<div class="banner">
+    <div class="section">
+        <br><br>
+        <h1 class="white-text center">Today's Weather</h1>
+        <br><br>
+    </div>
+</div>
+
+<!-- Main contents -->
+<div class="container">
+
+    <!-- Location Name -->
+    <h5 id="location" class="white-text center">Waiting for location...</h5>
+
+    <!-- Weather Icon -->
+    <div class="section">
+        <div class="center-align">
+
+            <div class="hide icon drizzle"></div>
+
+            <div class="hide icon clouds">
+                <div class="cloud"></div>
+                <div class="cloud"></div>
+            </div>
+
+            <div class="hide icon rainy">
+                <div class="cloud">
+                    <div class="rain"></div>
+                </div>
+            </div>
+
+            <div class="hide icon snowy">
+                <div class="cloud"></div>
+                <div class="snow">
+                    <div class="flake"></div>
+                    <div class="flake"></div>
+                </div>
+            </div>
+
+            <div class="icon clear">
+                <div class="sun">
+                    <div class="rays"></div>
+                </div>
+            </div>
+
+            <div class="hide icon thunderstorm">
+                <div class="cloud"></div>
+                <div class="lightning">
+                    <div class="bolt"></div>
+                    <div class="bolt"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Weather Main -->
+    <h4 class="white-text center"><span id="temp"></span> <span id="meter" class="light-blue-text text-lighten-3"></span>  </h4>
+    <!-- Weather Main -->
+    <h5 id="weather-main" class="white-text center"></h5>
+    <!-- Weather Description  -->
+    <h5 id="weather-desc" class="white-text center small"></h5>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="center row">
+        <p>Made with ♡ by <a target="_blank" href="https://rajanikant.me">RK</a></p>
+    </div>
+</footer>
+
+<!--Import jQuery before materialize.js -->
+<script type="text/javascript" src="../Resources/js/jquery.js"></script>
+<script type="text/javascript" src="../Resources/js/materialize.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
