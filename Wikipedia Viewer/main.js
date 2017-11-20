@@ -94,7 +94,7 @@ $(document).ready(function () {
                         var snippet = obj['snippet'];
                         $search_results.append(['<li class="collection-item">',
                             '<a target="_blank" href="', 'https://en.wikipedia.org/wiki/', encodeURI(title), '">',
-                            '<div class="result-card">',
+                            '<div class="waves-effect result-card">',
                             '<div class="result-title">', title, '</div>',
                             '<div class="result-snippet">', snippet, '</div>',
                             '</div>',
