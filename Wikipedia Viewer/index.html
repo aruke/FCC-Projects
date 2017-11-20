@@ -5,7 +5,6 @@
     <title>Wikipedia Viewer</title>
     <link type="text/css" rel="stylesheet" href="../Resources/css/materialize.css" media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="main.css"/>
-    <!-- TODO add to resources -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
@@ -24,19 +23,36 @@
         <br>
         <div class="container">
             <div class="row center" id="search-container">
-                <input class="z-depth-4" type="text" placeholder="Search..." id="search-input">
+                <input class="z-depth-4" type="search" placeholder="Search..." id="search-input">
                 <i id="search-icon" class="material-icons">search</i>
             </div>
 
             <div class="row" id="random-article">
                 <div class="col m8 offset-m2 s12">
-                    <h5><a class="white-text random" href="https://en.wikipedia.org/wiki/Special:Random"
+                    <h5 id="link-random-article" class=""><a class="white-text" href="https://en.wikipedia.org/wiki/Special:Random"
                            target="_blank">Read a Random Article</a></h5>
+
+                    <div class="preloader-wrapper small active hide" id="loader">
+                        <div class="spinner-layer spinner-green-only">
+                            <div class="circle-clipper left">
+                                <div class="circle"></div>
+                            </div><div class="gap-patch">
+                            <div class="circle"></div>
+                        </div><div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <h5 id="clear-search" class="hide">Clear Search</h5>
+
                 </div>
             </div>
 
-            <div class="row" id="search-result-container">
+            <div class="row hide" id="search-result-container">
+                <ul id="search-results" class="collection  left-align">
 
+                </ul>
             </div>
 
         </div>
