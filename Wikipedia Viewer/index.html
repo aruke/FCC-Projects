@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    <link type="text/css" rel="stylesheet" href="../Resources/css/materialize.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="main.css"/>
+    <!-- TODO add to resources -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+<!-- Main contents -->
+<div class="container">
+
+    <br>
+    <br>
+    <br>
+
+    <div class="section center-align">
+
+        <h3>Search Wikipedia Articles</h3>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row center" id="search-container">
+                <input class="z-depth-4" type="text" placeholder="Search..." id="search-input">
+                <i id="search-icon" class="material-icons">search</i>
+            </div>
+
+            <div class="row" id="random-article">
+                <div class="col m8 offset-m2 s12">
+                    <h5><a class="white-text random" href="https://en.wikipedia.org/wiki/Special:Random"
+                           target="_blank">Read a Random Article</a></h5>
+                </div>
+            </div>
+
+            <div class="row" id="search-result-container">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="center row">
+        <p>Made with ♡ by <a target="_blank" href="https://rajanikant.me">RK</a></p>
+    </div>
+</footer>
+
+<!--Import jQuery before materialize.js -->
+<script type="text/javascript" src="../Resources/js/jquery.js"></script>
+<script type="text/javascript" src="../Resources/js/materialize.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>

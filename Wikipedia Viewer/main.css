@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    --main-bg-color: #0277bd;
+    background-color: var(--main-bg-color);
+    position: relative;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    color: whitesmoke;
+    font-weight: 300;
+}
+
+footer {
+    color: #FFFFFF;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+footer a {
+    color: #F1F1F1;
+}
+
+#search-container {
+    position: relative;
+}
+
+#search-icon {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: rgba(1, 87, 155, 0.61);
+}
+
+#search-input {
+    background-color: #FFF;
+    color: #01579b;
+    border-width: 0;
+    height: 4rem;
+    border-radius: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    max-width: -webkit-fill-available;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+#search-input:focus {
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+#search-input:hover {
+    -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+}
+
+#search-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgba(1, 87, 155, 0.61);
+}
+
+#search-input::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(1, 87, 155, 0.61);
+}
+
+#search-input:-ms-input-placeholder { /* IE 10+ */
+    color: rgba(1, 87, 155, 0.61);
+}
+
+#search-input:-moz-placeholder { /* Firefox 18- */
+    color: rgba(1, 87, 155, 0.61);
+}
