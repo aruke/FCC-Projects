@@ -1,0 +1,63 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    --primary-color: #0097a7;
+}
+
+body {
+    background-color: var(--primary-color);
+    position: relative;
+    padding-bottom: 2rem;
+    min-height: 100%;
+    color: whitesmoke;
+    font-weight: 300;
+}
+
+footer {
+    color: #FFFFFF;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+footer a {
+    color: #F1F1F1;
+}
+
+@media only screen and (min-width: 993px){
+    .container {
+        width: 60%;
+    }
+}
+
+.card {
+    color: #212121;
+}
+
+.card .additional-info{
+    color: #616161;
+}
+
+.card .container {
+    width: 80%;
+}
+
+.spinner-green, .spinner-green-only {
+    border-color: #FFF;
+}
+
+.spinner-layer {
+    border-color: #FFF;
+}
+
+.material-icons {
+    margin: 0 10px;
+}

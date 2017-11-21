@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitch Streamer</title>
+    <link type="text/css" rel="stylesheet" href="../Resources/css/materialize.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="main.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+<!-- Main contents -->
+<div class="section center-align">
+    <h3>Twitch Streamer</h3>
+    <img src="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg" alt="freeCodeCamp">
+
+    <br>
+</div>
+
+<div class="container">
+
+    <div class="section">
+
+        <!-- Main Content Card -->
+        <div id="main-card" class="card hide">
+
+            <div class="card-image responsive-img">
+                <img id="banner-image" src="">
+            </div>
+
+            <div class="card-content">
+
+                <div class="container">
+
+                    <div class="row valign-wrapper">
+                        <div class="col m2 s3 valign-wrapper">
+                            <img id="profile-image" class="responsive-img circle" src="">
+                        </div>
+                        <div class="col m10 s9">
+                            <h5><a id="display-name" target="_blank" href=""></a></h5>
+                            <h6 id="streaming-status"></h6>
+                            <div id="status"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div id="bio"></div>
+                    </div>
+
+                    <div class="row center-block additional-info">
+                        <div class="col l6 m6 s12">
+                            <div class="valign-wrapper">
+                                <i class="material-icons">visibility</i><div><span id="num_views"></span> Views </div>
+                            </div>
+                        </div>
+
+                        <div class="col l6 m6 s12">
+                            <div class="valign-wrapper">
+                                <i class="material-icons">people</i><div><span id="num_followers"></span> Followers </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Pre Loader -->
+    <div class="row section center-align">
+        <br>
+        <br>
+        <br>
+        <div class="preloader-wrapper small active" id="loader">
+            <div class="spinner-layer spinner-green-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="center row">
+        <p>Made with ♡ by <a target="_blank" href="https://rajanikant.me">RK</a></p>
+    </div>
+</footer>
+
+<!--Import jQuery before materialize.js -->
+<script type="text/javascript" src="../Resources/js/jquery.js"></script>
+<script type="text/javascript" src="../Resources/js/materialize.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
