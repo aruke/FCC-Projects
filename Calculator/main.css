@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    --main-bg-color: #1a2245;
+    --cal-font-color: #000;
+    --cal-btn-color: #0091ea;
+    --cal-btn-color-light: #00a4ff;
+    --cal-spl-btn-color: #00b8d4;
+    --cal-spl-btn-color-light: #00cbe6;
+    background-color: var(--main-bg-color);
+    position: relative;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    color: white;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+footer {
+    color: #FFFFFF;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+footer a {
+    color: #F1F1F1;
+}
+
+#calculator-shell {
+    background-color: whitesmoke;
+    color: var(--main-bg-color);
+}
+
+#calculator-shell {
+    background-color: whitesmoke;
+    color: var(--main-bg-color);
+}
+
+#input-container {
+    margin: 5px -5px;
+    padding:2px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#input-container .row {
+    margin: 0;
+}
+
+#primary-input {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+#secondary-input {
+    font-size: 1.5rem;
+}
+
+.keypad-container {
+    font-size: 2rem;
+    padding: 1px;
+}
+
+.keypad-container .card {
+    margin: 0;
+}
+
+.keypad-container .row {
+    margin-bottom: 0;
+}
+
+.keypad-container .row .col {
+    padding: 0 1rem;
+    min-height: 1px;
+    border: 0.5px solid #FFF;
+    background-color: var(--cal-btn-color);
+    color: #FFFFFF;
+}
+
+.keypad-container .row .col:hover {
+    background-color: var(--cal-btn-color-light);
+}
+
+.keypad-container .row .col.special {
+    background-color: var(--cal-spl-btn-color);
+}
+
+.keypad-container .row .col.special:hover {
+    background-color: var(--cal-spl-btn-color-light);
+}
+
+.keypad-container .row .col .button {
+    min-height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+}
